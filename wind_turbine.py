@@ -1,5 +1,5 @@
 
-# ------------__ Hacking STEM – seismograph.py – micro:bit __-----------
+# ------------__ Hacking STEM – wind_turbine.py – micro:bit __-----------
 # For use with the Increasing Power Through Design Lesson plan available 
 # from Microsoft Education Workshop at http://aka.ms/hackingSTEM
 #
