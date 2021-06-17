@@ -1,7 +1,9 @@
 
 # ------------__ Hacking STEM – wind_turbine.py – micro:bit __-----------
 # For use with the Increasing Power Through Design Lesson plan available 
-# from Microsoft Education Workshop at http://aka.ms/hackingSTEM
+# from Microsoft Education Workshop at 
+# https://www.microsoft.com/en-us/education/education-workshop/windmill.aspx
+# http://aka.ms/hackingSTEM
 #
 #  Overview:
 #  This code is used with a DC motor that is operates as a generator. It 
