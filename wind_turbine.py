@@ -1,15 +1,15 @@
 
 # ------------__ Hacking STEM – wind_turbine.py – micro:bit __-----------
-# For use with the Increasing Power Through Design Lesson plan available 
-# from Microsoft Education Workshop at 
-# https://www.microsoft.com/en-us/education/education-workshop/windmill.aspx
+# For use with the Increasing Power Through Design Lesson plan available
+# from Microsoft Education Workshop at
+# https://education.microsoft.com/hackingStem/lesson/47392ecb
 # http://aka.ms/hackingSTEM
 #
 #  Overview:
-#  This code is used with a DC motor that is operates as a generator. It 
-#  reads analog pin 0, which is connected to a DC motor, and converts 
-#  the vakue to voltage. It then take a second reading at pin 1, which 
-#  has a 100 Ohm resistor before it, and using Ohms law calcuates the 
+#  This code is used with a DC motor that is operates as a generator. It
+#  reads analog pin 0, which is connected to a DC motor, and converts
+#  the vakue to voltage. It then take a second reading at pin 1, which
+#  has a 100 Ohm resistor before it, and using Ohms law calcuates the
 #  current. It then write those 2 values to serial.
 #
 #  This project uses a BBC micro:bit microcontroller, information at:
@@ -49,14 +49,14 @@ def readSensors():
         if pin0_reading > voltage:
             voltage = pin0_reading
             sleep(1)  # Sleep for stability
-    
-    # Convert the "voltage" variable to an actual voltage value. We now the 
-    # range of the reading is between 0 and 1023, which is a total of 1024 
+
+    # Convert the "voltage" variable to an actual voltage value. We now the
+    # range of the reading is between 0 and 1023, which is a total of 1024
     # values, so we first divide "voltage" by 1024. Second we mulptiple it
     # byt the refrence voltage of the board in milli volts. For the micro:bit
     # that value 3.3 volts or 3300 milli volts.
     voltage = voltage/1024*3300
- 
+
     pin1_reading = pin1.read_analog()
     # Filter out low readings to 0
     if pin1_reading <= 3:
