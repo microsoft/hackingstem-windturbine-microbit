@@ -2,7 +2,7 @@
 Microcontroller code for Microsoft Hacking STEM Wind Turbine Lesson Plan adapted for micro:bit
 
 # Getting Started
-1. Download lesson assets at https://education.microsoft.com/hackingStem/lesson/47392ecb
+1. Download lesson assets at https://github.com/microsoft/hackingstem-windturbine-microbit.git
 1. Build your Wind Turbine!
 1. Use [Mu for Python](https://codewith.mu/) to flash the .py to your  [micro:bit](https://www.microbit.org/) microcontroller
 1. Verify data interactions in Excel
